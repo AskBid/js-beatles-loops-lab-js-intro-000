@@ -16,6 +16,10 @@ function theBeatlesPlay(musicians, instruments) {
     return newarr
 }
 
-function iLoveTheBeatles() {
-    
+function iLoveTheBeatles(n) {
+    var newarr = []
+    for (i = 0; i <= n; ++i) {
+        newarr.push("I love the Beatles!")
+    }
+    return newarr
 }
