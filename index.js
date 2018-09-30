@@ -22,7 +22,7 @@ function iLoveTheBeatles(n) {
     do {
         newarr.push("I love the Beatles!");
         i++
-    } while (n < 15);
+    } while (n < 15 && i <= n);
 
     return newarr
 }
