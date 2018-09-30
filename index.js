@@ -13,4 +13,5 @@ function theBeatlesPlay(musicians, instruments) {
     for (i = 0; i < musicians.length; ++i) {
         newarr.push(musicians[i] + " plays " + instruments[i])
     }
+    return newarr
 }
